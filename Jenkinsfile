@@ -2,13 +2,13 @@ pipeline{
     agent any
     stages{
         stage('Build'){
-            steps{echo'hello1'}
+            steps{echo'hello3'}
         }
         stage('Test'){
-            steps{sleep 60}
+            steps{sleep 10}
         }
         stage('Deploy'){
-            steps{echo'hello2'}
+            steps{echo'hello4'}
         }
     }
 }
